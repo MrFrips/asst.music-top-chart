@@ -70,7 +70,9 @@ jobs:
         run: |
           echo "🔄 Starting data refresh..."
           curl --fail-with-body --max-time 3600 \
-            "http://localhost:3000/api/cron/refresh?secret=${{ secrets.ADMIN_SECRET }}"
+            -X POST "http://localhost:3000/api/cron/refresh" \
+            -H "Content-Type: application/json" \
+            -d '{"secret":"${{ secrets.ADMIN_SECRET }}"}'
           echo ""
           echo "✅ Data refresh completed!"
 
