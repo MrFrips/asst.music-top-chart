@@ -8,11 +8,11 @@ Meww.me Top Chart is a **JSON-only API service** built with Next.js that scrapes
 
 ### Key Features
 
-- 🎵 **Top Daily Tracks**  Scraped from Kworb.net for 20 countries + global
-- 🎧 **Spotify Integration**  Automatic track matching with cover art, preview URLs, and Spotify links
-- 📈 **Historical Data**  Daily snapshots with rank changes
-- 🌍 **Multi-Country Support**  Global + 19 country-specific charts
-- 🔄 **Auto-Refresh** Cron-based data refresh via Vercel or manual trigger
+- **Top Daily Tracks**  Scraped from Kworb.net for 20 countries + global
+- **Spotify Integration**  Automatic track matching with cover art, preview URLs, and Spotify links
+- **Historical Data**  Daily snapshots with rank changes
+- **Multi-Country Support**  Global + 19 country-specific charts
+- **Auto-Refresh** Cron-based data refresh via Vercel or manual trigger
 
 ---
 
