@@ -213,8 +213,8 @@ export default function Home() {
       <div className="app">
         <div className="sidebar">
           <div className="sidebar-header">
-            <h1>Meww.me <span>API</span> Explorer</h1>
-            <p>Spotify Top Daily Tracks • Scraped from Kworb</p>
+            <h1>asst.music <span>API</span> Иследователь</h1>
+            <p>Лучшие треки дня на Spotify • Данные получены с сайта Kworb</p>
           </div>
           <div className="ep-list">
             {ENDPOINTS.map((ep, i) => (
@@ -229,7 +229,7 @@ export default function Home() {
                 </div>
                 <div className="ep-desc">
                   {ep.description}
-                  {ep.requiresAuth && <span className="auth-badge">AUTH</span>}
+                  {ep.requiresAuth && <span className="auth-badge">АВТОРИЗАЦИЯ</span>}
                 </div>
               </div>
             ))}
