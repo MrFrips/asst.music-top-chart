@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Meww.me API Explorer',
-  description: 'JSON API for Spotify top charts scraped from Kworb',
+  title: 'asst.music API зонд',
+  description: 'JSON API для просмотра топ-чартов Spotify, полученный путем парсинга данных с Kworb.',
 };
 
 export default function RootLayout({
@@ -11,7 +11,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body>{children}</body>
     </html>
   );
